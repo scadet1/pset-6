@@ -1,21 +1,24 @@
 <!DOCTYPE html>
 
 <html>
+
 <head>
-		<script type="text/javascript" src="js/app.js"></script>
-		<title> Problem Set 6 </title>
-		<link rel="stylesheet" href="css/styles.css">
-	</head>
-	<body>
-			<h1><span class="styling">To Do</h1>
-			<div class="input_div">
-					<input class="input" type="text">
-					<button class="addButton">Add</button>
-			</div>
-			<div class="container">
-					<div class="item">
-							<input type="text" class="item input" disabled>
-							<button class="doneButton">Done</button>
-							<button class="removeButton">Remove</button>
-		<script type="text/javascript" src="app.js"></script>
-    <header>
+  <h1>To Do </h1>
+  <div id="headDiv">
+    <input type="text" id="myInput" placeholder="Add new item to list...">
+    <button onclick="add()"  id="btnadd" > Add</button>
+  </div>
+
+  <link rel="stylesheet" href="css/styles.css" />
+  <script type="text/javascript" src="js/app.js"></script>
+</head>
+
+<body>
+<div id="bodyDiv">
+  <br>
+  <ul id="mytodolist">
+  </ul>
+</div>
+</body>
+
+</html>
