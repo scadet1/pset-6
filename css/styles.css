@@ -20,7 +20,7 @@ h1 {
 
 input {
   margin: 0;
-  border: 2px solid black;
+  border: 2px solid darkslategrey;
   width: 75%;
   padding: 10px;
   float: left;
