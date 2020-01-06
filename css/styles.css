@@ -2,5 +2,62 @@ body {
   background-color: rgb(207, 246, 252);
 }
 h1 {
-    color: navy;
+    color: pink;
+    text-shadow: 1px
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+  font-size: 80px;
+  padding: 0px;
+  font-style: normal;
+  font-family: sans-serif;
+}
+
+input {
+  margin: 0;
+  border: 2px solid black;
+  width: 75%;
+  padding: 10px;
+  float: left;
+  font-size: 24px;
+  font-family: serif;
+}
+
+#btnadd {
+  padding: 10px;
+  width: 25%;
+  height:54px;
+  color: black;
+  float: left;
+  text-align: center;
+  font-size: 30px;
+  font-family: sans-serif;
+  transition: 0.3s;
+  border-radius: 0;
+}
+
+#bodyDiv {
+  display:block;
+}
+
+button {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+button:onclick {
+  background-color: gray;
+}
+
+ul li {
+  border: 2px black;
+  padding: 12px 8px 12px 40px;
+  background: lightpink;
+  font-size: 28px;
+  user-select: none;
 }
